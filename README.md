@@ -1,10 +1,10 @@
-# 🚀 Project-X
+# 🚀 svelte-spa-boilerplate
 
 <!-- all-shields/header-badges:START -->
-[![v0.2.0](https://img.shields.io/badge/version-v0.2.0-lightgray.svg?style=flat&logo=)](https://github.com/WeeeTeam/projectx-web/blob/main/CHANGELOG.md) [![](https://img.shields.io/npm/v/@WeeeTeam/projectx-web?color=CC3534&logo=npm)](https://www.npmjs.com/package/@WeeeTeam/projectx-web) [![License: MIT](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat&logo=license)](https://github.com/WeeeTeam/projectx-web/blob/main/LICENSE.md) [![Powered By Svelte](https://img.shields.io/badge/powered%20by-svelte-FF3C02.svg?style=flat&logo=svelte)](https://svelte.dev/) [![Language: TypeScript](https://img.shields.io/badge/language-typescript-blue.svg?style=flat&logo=typescript)](https://www.typescriptlang.org/) [![ECMAScript: 2019](https://img.shields.io/badge/ES-9-F7DF1E.svg?style=flat&logo=javascript)](https://www.typescriptlang.org/) [![Discord Server](https://discordapp.com/api/guilds/383373985666301975/embed.png)](https://discord.ptkdev.io) 
+[![v1.0.20210319](https://img.shields.io/badge/version-v1.0.20210319-lightgray.svg?style=flat&logo=)](https://github.com/ptkdev-boilerplate/svelte-spa-boilerplate/blob/main/CHANGELOG.md) [![](https://img.shields.io/npm/v/@ptkdev/svelte-spa-boilerplate?color=CC3534&logo=npm)](https://www.npmjs.com/package/@ptkdev/svelte-spa-boilerplate) [![License: MIT](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat&logo=license)](https://github.com/ptkdev-boilerplate/svelte-spa-boilerplate/blob/main/LICENSE.md) [![Powered By Svelte](https://img.shields.io/badge/powered%20by-svelte-FF3C02.svg?style=flat&logo=svelte)](https://svelte.dev/) [![Language: TypeScript](https://img.shields.io/badge/language-typescript-blue.svg?style=flat&logo=typescript)](https://www.typescriptlang.org/) [![ECMAScript: 2019](https://img.shields.io/badge/ES-9-F7DF1E.svg?style=flat&logo=javascript)](https://github.com/tc39/ecma262) [![Discord Server](https://discordapp.com/api/guilds/383373985666301975/embed.png)](https://discord.ptkdev.io) 
 <!-- all-shields/header-badges:END -->
 
-Svelte Boilerplate
+Create single page application with this friendly Svelte boilerplate made with typescript and love. Perfect for your web/pwa, electron or cordova project.
 
 ## 🎁 Support: Donate
 
@@ -19,9 +19,9 @@ Svelte Boilerplate
 -   💡 [Features](#-features)
 -   🔨 [Developer Mode](#-developer-mode)
 -   👨‍💻 [Contributing](#-contributing)
--   🐛 [Known Bugs](https://github.com/WeeeTeam/projectx-web/issues?q=is%3Aopen+is%3Aissue+label%3Abug)
+-   🐛 [Known Bugs](https://github.com/ptkdev-boilerplate/svelte-spa-boilerplate/issues?q=is%3Aopen+is%3Aissue+label%3Abug)
 -   🍻 Community:
-    -   <img src="https://raw.githubusercontent.com/WeeeTeam/projectx-web/main/.github/assets/social_discord.png" height="18px"> [Discord](http://discord.ptkdev.io) ([🇬🇧 English Channel](https://discord.gg/YkMG26f) | [🇮🇹 Italian Channel](https://discord.gg/HFtdBAJ) | [🇵🇱 Polish Channel](https://discord.gg/TV5EXFd))
+    -   <img src="https://raw.githubusercontent.com/ptkdev-boilerplate/svelte-spa-boilerplate/main/.github/assets/social_discord.png" height="18px"> [Discord](http://discord.ptkdev.io) ([🇬🇧 English Channel](https://discord.gg/YkMG26f) | [🇮🇹 Italian Channel](https://discord.gg/HFtdBAJ) | [🇵🇱 Polish Channel](https://discord.gg/TV5EXFd))
 
 ## 💡 Features
 
@@ -30,7 +30,7 @@ Svelte Boilerplate
 
 ## 🔨 Developer Mode
 
-1. Clone this repository or download [nightly](https://github.com/WeeeTeam/projectx-web/archive/nightly.zip), [beta](https://github.com/WeeeTeam/projectx-web/archive/beta.zip) or [stable](https://github.com/WeeeTeam/projectx-web/archive/main.zip).
+1. Clone this repository or download [nightly](https://github.com/ptkdev-boilerplate/svelte-spa-boilerplate/archive/nightly.zip), [beta](https://github.com/ptkdev-boilerplate/svelte-spa-boilerplate/archive/beta.zip) or [stable](https://github.com/ptkdev-boilerplate/svelte-spa-boilerplate/archive/main.zip).
 2. Copy and rename `config.js.tpl` file to `config.js` in `configs` folder and fill it properly.
 3. Run `npm install`
 4. Run `npm run dev`
@@ -56,7 +56,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://ptk.dev"><img src="https://avatars1.githubusercontent.com/u/442844?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Patryk Rzucidło</b></sub></a><br /><a href="https://github.com/ptkdev/WeeeTeam/projectx-web/commits?author=ptkdev" title="Code">💻</a> <a href="#translation-ptkdev" title="Translation">🌍</a> <a href="https://github.com/ptkdev/WeeeTeam/projectx-web/commits?author=ptkdev" title="Documentation">📖</a> <a href="https://github.com/ptkdev/WeeeTeam/projectx-web/issues?q=author%3Aptkdev" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="https://ptk.dev"><img src="https://avatars1.githubusercontent.com/u/442844?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Patryk Rzucidło</b></sub></a><br /><a href="https://github.com/ptkdev/ptkdev-boilerplate/svelte-spa-boilerplate/commits?author=ptkdev" title="Code">💻</a> <a href="#translation-ptkdev" title="Translation">🌍</a> <a href="https://github.com/ptkdev/ptkdev-boilerplate/svelte-spa-boilerplate/commits?author=ptkdev" title="Documentation">📖</a> <a href="https://github.com/ptkdev/ptkdev-boilerplate/svelte-spa-boilerplate/issues?q=author%3Aptkdev" title="Bug reports">🐛</a></td>
   </tr>
 </table>
 

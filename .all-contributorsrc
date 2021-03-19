@@ -1,9 +1,11 @@
 {
-	"projectName": "WeeeTeam/projectx-web",
+	"projectName": "ptkdev-boilerplate/svelte-spa-boilerplate",
 	"projectOwner": "ptkdev",
 	"repoType": "github",
 	"repoHost": "https://github.com",
-	"files": ["README.md"],
+	"files": [
+		"README.md"
+	],
 	"imageSize": 100,
 	"commit": true,
 	"contributors": [
@@ -12,7 +14,12 @@
 			"name": "Patryk Rzucidło",
 			"avatar_url": "https://avatars1.githubusercontent.com/u/442844?v=4",
 			"profile": "https://ptk.dev",
-			"contributions": ["code", "translation", "doc", "bug"]
+			"contributions": [
+				"code",
+				"translation",
+				"doc",
+				"bug"
+			]
 		}
 	],
 	"contributorsPerLine": 6,

@@ -8,7 +8,7 @@
 			"id": "header-badges",
 			"badges": [
 				{
-					"url": "https://github.com/WeeeTeam/projectx-web/blob/main/CHANGELOG.md",
+					"url": "https://github.com/ptkdev-boilerplate/svelte-spa-boilerplate/blob/main/CHANGELOG.md",
 					"color": "lightgray",
 					"label": "version",
 					"message": "v{{version}}",
@@ -18,16 +18,16 @@
 					"platform": "shields"
 				},
 				{
-					"url": "https://www.npmjs.com/package/@WeeeTeam/projectx-web",
+					"url": "https://www.npmjs.com/package/@ptkdev/svelte-spa-boilerplate",
 					"color": "#CC3534",
 					"label": "npm",
 					"logo": "npm",
 					"style": "flat",
-					"custom": "/npm/v/@WeeeTeam/projectx-web?color=CC3534&logo=npm",
+					"custom": "/npm/v/@ptkdev/svelte-spa-boilerplate?color=CC3534&logo=npm",
 					"platform": "shields"
 				},
 				{
-					"url": "https://github.com/WeeeTeam/projectx-web/blob/main/LICENSE.md",
+					"url": "https://github.com/ptkdev-boilerplate/svelte-spa-boilerplate/blob/main/LICENSE.md",
 					"color": "brightgreen",
 					"label": "license",
 					"message": "{{license}}",
@@ -57,7 +57,7 @@
 					"platform": "shields"
 				},
 				{
-					"url": "https://www.typescriptlang.org/",
+					"url": "https://github.com/tc39/ecma262",
 					"color": "#F7DF1E",
 					"label": "ES",
 					"message": "9",
