@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-var-requires */
 import svelte from "rollup-plugin-svelte";
 import commonjs from "@rollup/plugin-commonjs";
 import resolve from "@rollup/plugin-node-resolve";
@@ -27,7 +28,7 @@ function serve() {
 			if (server) {
 				return;
 			}
-			server = spawn("npm", ["run", "start", "--", "--dev"], {
+			server = spawn("npm", ["run", "start", "--", "--dev", "--port", config.server.port], {
 				stdio: ["ignore", "inherit", "inherit"],
 				shell: true,
 			});
