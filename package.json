@@ -1,6 +1,6 @@
 {
 	"name": "@ptkdev/svelte-spa-boilerplate",
-	"displayName": "Svelte WebComponent Boilerplate",
+	"displayName": "Svelte SPA Boilerplate",
 	"description": "Create single page application with this friendly Svelte boilerplate made with typescript and love. Perfect for your web/pwa, electron or cordova project",
 	"version": "1.0.20210402",
 	"main": "dist/bundle.js",
