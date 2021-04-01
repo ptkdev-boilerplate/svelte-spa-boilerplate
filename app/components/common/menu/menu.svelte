@@ -26,11 +26,11 @@
 			<a href="#/" class="navbar-item"> Home </a>
 
 			<div class="navbar-item has-dropdown is-hoverable">
-				<a href="#/wild/" class="navbar-link"> Wild </a>
+				<a href="#/wild" class="navbar-link"> Wild </a>
 
 				<div class="navbar-dropdown">
-					<a href="#/wild/about/" class="navbar-item"> About </a>
-					<a href="#/wild/contacts/" class="navbar-item"> Contacts </a>
+					<a href="#/wild/about" class="navbar-item"> About </a>
+					<a href="#/wild/contacts" class="navbar-item"> Contacts </a>
 				</div>
 			</div>
 		</div>
