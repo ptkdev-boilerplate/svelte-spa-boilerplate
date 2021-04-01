@@ -22,7 +22,6 @@ Create single page application with this friendly Svelte boilerplate made with t
 
 -   💡 [Features](#-features)
 -   👔 [Screenshot](#-screenshot)
--   🚀 [How to use](#-installation)
 -   📚 [Documentation](#-documentation)
 -   🔨 [Developer Mode](#-developer-mode)
 -   👨‍💻 [Contributing](#-contributing)
@@ -52,8 +51,8 @@ Create single page application with this friendly Svelte boilerplate made with t
 
 ### 🔖 TODO
 
--   [✔️] PWA + Service Worker + Offline
--   [✔️] Images LazyLoad
+-   [✖️] PWA + Service Worker + Offline
+-   [✖️] Images LazyLoad
 
 ## 👔 Screenshot
 
