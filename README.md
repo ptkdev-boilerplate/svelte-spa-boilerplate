@@ -24,7 +24,7 @@ Create single page application with this friendly Svelte boilerplate made with t
 -   👔 [Screenshot](#-screenshot)
 -   📚 [Documentation](#-documentation)
 -   🔨 [Developer Mode](#-developer-mode)
--   -   ⚡ [Run Project](#-run-project)
+-   -   🏁 [Run Project](#-run-project)
 -   -   💾 [Setup Project](#-setup-project)
 -   👨‍💻 [Contributing](#-contributing)
 -   🐛 [Known Bugs](https://github.com/ptkdev-boilerplate/svelte-spa-boilerplate/issues?q=is%3Aopen+is%3Aissue+label%3Abug)
