@@ -6,8 +6,6 @@ import livereload from "rollup-plugin-livereload";
 import { terser } from "rollup-plugin-terser";
 import sveltePreprocess from "svelte-preprocess";
 import typescript from "@rollup/plugin-typescript";
-import ttypescript from "ttypescript";
-import tsPlugin from "rollup-plugin-typescript2";
 import css from "rollup-plugin-css-only";
 import copy from "rollup-plugin-copy";
 import json from "@rollup/plugin-json";
@@ -18,6 +16,7 @@ import { spawn } from "child_process";
 const config = require("./app/configs/config");
 const tsconfig = require("./tsconfig.json");
 
+config.debug = config.debug === "enabled" ? true : false;
 const production = !config.debug;
 
 function serve() {
@@ -49,12 +48,13 @@ function tsalias() {
 	const paths = [];
 
 	for (const value in tsconfig.compilerOptions.paths) {
-		paths.push(
-			{
-				replacement: path.resolve(path.resolve(__dirname), tsconfig.compilerOptions.paths[value][0].replace("./", "").replace("/*", "")),
-				find: value.replace("./", "").replace("/*", ""),
-			}
-		);
+		paths.push({
+			replacement: path.resolve(
+				path.resolve(__dirname),
+				tsconfig.compilerOptions.paths[value][0].replace("./", "").replace("/*", ""),
+			),
+			find: value.replace("./", "").replace("/*", ""),
+		});
 	}
 
 	return paths;
@@ -73,7 +73,7 @@ export default {
 		copy({
 			targets: [
 				{ src: "public/**/*", dest: "dist" },
-				{ src: "assets/**/*", dest: "dist" }
+				{ src: "assets/**/*", dest: "dist" },
 			],
 		}),
 		svelte({
@@ -83,7 +83,7 @@ export default {
 			}),
 			compilerOptions: {
 				// enable run-time checks when not in production
-				dev: !production
+				dev: !production,
 			},
 		}),
 
@@ -97,16 +97,14 @@ export default {
 			dedupe: ["svelte"],
 		}),
 		alias({
-			entries: tsalias()
+			entries: tsalias(),
 		}),
 		commonjs(),
 		typescript({
 			sourceMap: true,
 			inlineSources: !production,
 		}),
-		tsPlugin({
-			typescript: ttypescript
-		}),
+
 		// we'll extract any component CSS out into
 		// a separate file - better for performance
 		css({ output: "bundle.css" }),
@@ -121,11 +119,12 @@ export default {
 
 		// If we're building for production (npm run build
 		// instead of npm run dev), minify
-		production && terser({
-			output: {
-				comments: false,
-			},
-		}),
+		production &&
+			terser({
+				output: {
+					comments: false,
+				},
+			}),
 	],
 
 	watch: {
