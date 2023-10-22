@@ -2,7 +2,7 @@
 	"name": "@ptkdev/svelte-spa-boilerplate",
 	"displayName": "Svelte SPA Boilerplate",
 	"description": "Create single page application with this user-friendly Svelte boilerplate made with typescript and love",
-	"version": "2.0.1-nightly.622",
+	"version": "2.0.1-nightly.623",
 	"main": "dist/bundle.js",
 	"publishConfig": {
 		"access": "public"
